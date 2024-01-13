@@ -13,8 +13,8 @@ print("\nDataFrame:")
 print(df)
 
 # Построим простой график с использованием Matplotlib
-plt.plot(df["Column1"], label="Column1")
-plt.plot(df["Column2"], label="Column2")
+plt.plot(df["Column1"], label="Колонка1")
+plt.plot(df["Column5"], label="Колонка5")
 plt.title("Sample Plot")
 plt.legend()
 plt.show()
